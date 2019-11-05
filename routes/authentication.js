@@ -4,8 +4,8 @@ const router = express.Router()
 
 router.get("/", (req, res) =>{
   res.json({
-    test: 'test'
+    test: 'test 2'
   })
 })
 
-module.exports = router
+export default router

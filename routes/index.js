@@ -1,5 +1,6 @@
-// export {default as authenication } from './authentication.js'
 
-module.exports = {
-  authentication: require('./authentication')
-}
+// module.exports = {
+//   authentication: require('./authentication')
+// }
+
+export { default as authentication } from './authentication'
